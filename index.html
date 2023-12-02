@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Budget Tracker</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="scripts.js"></script>
+  </head>
+  <body>
+    <header>
+      <!-- Navigation Bar -->
+      <nav>
+        <ul>
+          <li><a href="#dashboard">Dashboard</a></li>
+          <li><a href="#budgets">Budgets</a></li>
+          <li><a href="#reports">Reports</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Main content area -->
+      <section class="card" id="dashboard">
+        <!-- Chart placeholder -->
+        <div class="chart">
+          <h2>Budget Overview</h2>
+          <!-- Replace with actual chart -->
+          <div class="chart-placeholder">Pie Chart</div>
+        </div>
+
+        <!-- Progress Bars placeholder -->
+        <div class="progress-bars">
+          <div class="progress-bar">
+            <label for="expenses">Expenses</label>
+            <progress id="expenses" value="70" max="100"></progress>
+          </div>
+          <div class="progress-bar">
+            <label for="savings">Savings</label>
+            <progress id="savings" value="50" max="100"></progress>
+          </div>
+        </div>
+      </section>
+
+      <section class="card" id="budgets">
+        <!-- Budgets List -->
+        <h2>Your Budgets</h2>
+        <ul class="budget-list">
+          <li>Groceries: $300</li>
+          <li>Rent: $1200</li>
+          <li>Utilities: $150</li>
+          <!-- Add more list items as needed -->
+        </ul>
+      </section>
+
+      <section class="card" id="reports">
+        <!-- Reports Section -->
+        <h2>Monthly Reports</h2>
+        <!-- Replace with actual report elements -->
+        <div class="report-placeholder">Bar Chart</div>
+      </section>
+    </main>
+
+    <footer>
+      <!-- Footer content -->
+      <p>© 2023 Budget Tracker</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,102 @@
+/* styles.css */
+
+body,
+h2,
+ul,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #eef6f9;
+  color: #333;
+}
+
+header,
+footer {
+  background-color: #004d61;
+  color: white;
+  padding: 1em;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.card {
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 1em;
+  padding: 1em;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.chart,
+.progress-bars,
+.budget-list,
+.report-placeholder {
+  margin-bottom: 1em;
+}
+
+.chart-placeholder,
+.report-placeholder {
+  background-color: #ddd;
+  text-align: center;
+  line-height: 3em; /* Temporary height for the placeholder */
+  border-radius: 5px;
+}
+
+.progress-bar {
+  margin-bottom: 0.5em;
+}
+
+progress {
+  width: 100%;
+  height: 1em;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+progress::-webkit-progress-bar {
+  background-color: #eee;
+  border-radius: 5px;
+}
+
+progress::-webkit-progress-value {
+  background-color: #5eb5a6;
+  border-radius: 5px;
+}
+
+.budget-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.budget-list li {
+  background: #cae9e8;
+  margin: 0.5em 0;
+  padding: 0.5em;
+  border-radius: 5px;
+}
+
+footer p {
+  text-align: center;
+  font-size: 0.8em;
+}
+
+/* Add media queries for responsiveness */
